@@ -1,0 +1,56 @@
+.box{
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 550px;
+    background-color: #28DF99;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 350px;
+    padding-top:130px;
+    padding-left: 60px;
+    
+}
+
+.box-h1{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+.btn{
+    border: 0px solid;
+    border-radius: 30px;
+    width: 260px;
+    height: 45px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+
+.profile{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 550px;
+    font-family: sans-serif;
+    height: 350px;
+    padding-left: 60px;
+}
+
+.profile-h2{
+    margin-top: 40px;
+    
+}
+.profile-p{
+    /* background-color: blue; */
+    color: grey;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.profile img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
