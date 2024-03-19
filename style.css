@@ -1,9 +1,13 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
 .box{
     border-radius: 10px;
     margin: 100px auto;
-    width: 550px;
+    width: 560px;
     background-color: #28DF99;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
     height: 350px;
     padding-top:130px;
     padding-left: 60px;
@@ -32,10 +36,10 @@
     border: 1px solid lightgray;
     border-radius: 10px;
     margin: 100px auto;
-    width: 550px;
+    width: 570px;
     font-family: sans-serif;
-    height: 350px;
-    padding-left: 60px;
+    height: 390px;
+    padding-left: 40px;
 }
 
 .profile-h2{
@@ -49,8 +53,87 @@
     font-size: 20px;
 }
 
-.profile img{
-    width: 50px;
-    height: 100%;
-    border-radius: 50%;
+.pics{
+    display: flex;
 }
+.pic-1 {
+    /* background-image: ; */
+    background-image: url("https://lh3.googleusercontent.com/a/ACg8ocJWdKU6YxAUClq9v-GN9KeOLxYGU3o1rhfChlKQmJjtjQU=s260-c-no");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 65px;
+    cursor: pointer;
+  }
+
+  .pic-2 {
+    /* background-image: ; */
+    background-image: url("https://as1.ftcdn.net/v2/jpg/06/89/45/26/1000_F_689452624_bhMVABSkQZvcg7UtFp7hRwiQY3hIAZIj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 65px;
+    cursor: pointer;
+  }
+
+
+  .profile-p2{
+    color: #008DDA;
+  }
+
+  .line{
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    margin-left: -40px;
+
+  }
+
+  .profile-p2{
+    padding-top: 10px;
+    cursor: pointer;
+  }
+
+  .subscribe{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 600px;
+    height: 700px;
+  }
+
+  .subscribe img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .sub
+  {
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+
+ .sub p{
+    color: grey;
+    font-size: 15px;
+ }
+
+ .sub-p{
+    font-size: 20px;
+    margin-bottom: -15px;
+    color: black;
+ }
+
+ .subscribe-sent{
+    font-size: 40px;
+ }
